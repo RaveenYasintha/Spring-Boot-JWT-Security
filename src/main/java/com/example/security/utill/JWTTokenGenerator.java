@@ -19,10 +19,10 @@ import java.util.Date;
 public class JWTTokenGenerator {
     private static final Logger logger = LoggerFactory.getLogger(JWTTokenGenerator.class);
 
-    @Value("${mydentist.app.jwtSecret}")
+    @Value("raveen_yasintha")
     private String jwtSecret;
 
-    @Value("${mydentist.app.jwtExpirationMs}")
+    @Value("19981998")
     private int jwtExpirationMs;
 
     private final UserService userService;
